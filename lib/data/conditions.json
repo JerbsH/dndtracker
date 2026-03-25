@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Blinded",
+    "description": "You can't see and automatically fail any ability check that requires sight. Attack rolls against you have advantage and your attack rolls have disadvantage.",
+    "effects": ["Attack disadvantage"]
+  },
+  {
+    "name": "Charmed",
+    "description": "You can't attack the charmer or target the charmer with harmful abilities or magical effects. The charmer also has advantage on any ability check to interact socially with you."
+  },
+  {
+    "name": "Deafened",
+    "description": "You can't hear and automatically fail any ability check that requires hearing."
+  },
+  {
+    "name": "Frightened",
+    "description": "Disadvantage on ability checks and attack rolls while the source of your fear is within line of sight. You can't willingly move closer to the source of your fear."
+  },
+  {
+    "name": "Grappled",
+    "description": "Speed is 0 and it can't increase. Disadvantage on attacks against any target other than the grappler. The grappler can drag or carry you when it moves.",
+    "effects": ["Speed 0", "Grapple attack disadvantage"]
+  },
+  {
+    "name": "Incapacitated",
+    "description": "You can't take any action, bonus action, or reaction. Your concentration is broken. You can't speek. Disadvantage on initiative rolls.",
+    "effects": ["Inactive", "No concentration", "Speechless", "Surprised"]
+  },
+  {
+    "name": "Invisible",
+    "description": "Advantage on initiative rolls. You are immune to effects that require the target to be seen, unless the effects creator can somehow see you. Attacks against you have disadvantage and your attacks have advantage unless the creature can somehow see you.",
+    "effects": [
+      "Surprise",
+      "Concealed",
+      "Defensive advantage",
+      "Attack advantage"
+    ]
+  },
+  {
+    "name": "Paralyzed",
+    "description": "You are incapacitated. You automatically fail Strength and Dexterity saving throws. Attacks against you have advantage and any attack hit that is made within 5 feet of you automatically Crits.",
+    "effects": [
+      "Inactive",
+      "No concentration",
+      "Speechless",
+      "Surprised",
+      "Speed 0",
+      "Defensive disadvantage"
+    ]
+  },
+  {
+    "name": "Petrified",
+    "description": "You are transformed, along with any nonmagical object you are wearing or carrying, into a solid inanimate substance (usually stone). You are incapacitated, can't move or speak, and are unaware of your surroundings. Attack rolls against you have advantage. You automatically fail Strength and Dexterity saving throws. You have resistance to all damage. You are immune to poison and disease.",
+    "effects": [
+      "Inactive",
+      "No concentration",
+      "Speechless",
+      "Surprised",
+      "Defensive disadvantage",
+      "Damage resistance",
+      "Poison immunity"
+    ]
+  },
+  {
+    "name": "Poisoned",
+    "description": "You have disadvantage on attack rolls and ability checks."
+  },
+  {
+    "name": "Prone",
+    "description": "You can only crawl unless you use half of your maximum movement to stand up. If your speed is 0 you can't stand up yourself. Your attack rolls have disadvantage. Attacks made against you from 5 feet or closer have advantage, otherwise they have disadvantage.",
+    "effects": ["Attack disadvantage"]
+  },
+  {
+    "name": "Restrained",
+    "description": "Your speed is 0 and it can't increase. Attack rolls against you have advantage and your attack rolls have disadvantage. You have disadvantage on Dexterity saving throws.",
+    "effects": ["Speed 0", "Attack disadvantage", "Defensive disadvantage"]
+  },
+  {
+    "name": "Stunned",
+    "description": "You are incapacitated. You automatically fail Strength and Dexterity saving throws and attack rolls against you have advantage.",
+    "effects": [
+      "Inactive",
+      "No concentration",
+      "Speechless",
+      "Surprised",
+      "Defensive disadvantage"
+    ]
+  },
+  {
+    "name": "Unconscious",
+    "description": "You are incapacitated and prone and your speed is 0. You drop anything you are holding. After this condition ends, you remain prone. Attacks against you have advantage. You automatically fail Strength and Dexterity saving throws. Any attack that hits you is a critical hit if the attacker is within 5 feet of you. You are unaware of your surroundings.",
+    "effects": [
+      "Inactive",
+      "No concentration",
+      "Speechless",
+      "Surprised",
+      "Prone",
+      "Defensive disadvantage",
+      "Speed 0"
+    ]
+  }
+]
